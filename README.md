@@ -21,7 +21,7 @@ pip install pandas numpy scikit-learn matplotlib
 ```
 
 ## Running the Code
-Download the dataset from the provided link and place it in the same directory as the Python script.
+1. Download the dataset from the provided link and place it in the same directory as the Python script.
 Install the required libraries if you haven’t already.
 Run the Python script using your preferred Python environment. This will:
 Load and clean the dataset.
