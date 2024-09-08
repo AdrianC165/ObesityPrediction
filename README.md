@@ -21,13 +21,5 @@ You can install everything in one go with:
 ```bash
 pip install pandas numpy scikit-learn matplotlib
 
-## Running the Code
-Once you have the dataset and libraries set up, you’re ready to run the code. Simply execute the Python script, and it will handle the rest, including data preprocessing, training the model, and generating evaluation metrics.
 
-Make sure to save the dataset in the same directory as the script, or adjust the file path accordingly (just don’t hardcode any local paths).
-
-To run the code, use:
-
-```bash
-python your_script_name.py
 
