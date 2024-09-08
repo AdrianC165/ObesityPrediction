@@ -6,7 +6,7 @@ In this project, we’re digging into the relationship between eating habits and
 
 ## Dataset
 We're using the "ObesityDataSet_raw_and_data_sinthetic.csv" from the UCI ML Repository. You can grab it from the link below and place it in the same folder as the code before running the project:
-- [Download the Dataset]([https://archive.ics.uci.edu/ml/datasets/Obesity+Level+Prediction](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition)
+- [Download the Dataset](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition)
 
 **Important**: Be sure to download the dataset directly and avoid including it in your submission.
 
