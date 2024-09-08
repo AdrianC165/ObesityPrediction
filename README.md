@@ -21,13 +21,13 @@ pip install pandas numpy scikit-learn matplotlib
 ```
 
 ## Running the Code
-1.Download the dataset from the provided link and place it in the same directory as the Python script.
+1. Download the dataset from the provided link and place it in the same directory as the Python script.
 2. Install the required libraries if you haven’t already.
 3. Run the Python script using your preferred Python environment. This will:
     - Load and clean the dataset.
-  - Convert categorical variables into numerical format.
-  - Standardize the features.
-  - Split the data into training and test sets.
+   - Convert categorical variables into numerical format.
+      - Standardize the features.
+      - Split the data into training and test sets.
   - Train a regression model using gradient descent.
   - Evaluate the model and generate plots.
 4. Check the output files for results:
