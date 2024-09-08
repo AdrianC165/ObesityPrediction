@@ -24,20 +24,20 @@ pip install pandas numpy scikit-learn matplotlib
 1. Download the dataset from the provided link and place it in the same directory as the Python script.
 2. Install the required libraries if you haven’t already.
 3. Run the Python script using your preferred Python environment. This will:
-    - Load and clean the dataset.
+   - Load and clean the dataset.
    - Convert categorical variables into numerical format.
-      - Standardize the features.
-      - Split the data into training and test sets.
-  - Train a regression model using gradient descent.
-  - Evaluate the model and generate plots.
+   - Standardize the features.
+   - Split the data into training and test sets.
+   - Train a regression model using gradient descent.
+   - Evaluate the model and generate plots.
 4. Check the output files for results:
-  - model_results.txt: Contains evaluation metrics such as Mean Squared Error, model coefficients, and R2 Score.
-  - predicted_vs_actual.png: A plot showing the predicted vs. actual values.
+   - model_results.txt: Contains evaluation metrics such as Mean Squared Error, model coefficients, and R2 Score.
+   - predicted_vs_actual.png: A plot showing the predicted vs. actual values.
     
 ## Notes
-  - Ensure that no hardcoded paths are used; the dataset should be in the same directory as the script.
-  - The dataset file is not included in this repository but must be downloaded separately from the provided link.
-  - If you encounter any issues or need further assistance, feel free to open an issue on this repository.
+   - Ensure that no hardcoded paths are used; the dataset should be in the same directory as the script.
+   - The dataset file is not included in this repository but must be downloaded separately from the provided link.
+   - If you encounter any issues or need further assistance, feel free to open an issue on this repository.
 
 ## Additional Information
 This project is for educational purposes and demonstrates the application of machine learning techniques on a real dataset.
