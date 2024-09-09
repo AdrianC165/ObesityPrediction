@@ -12,8 +12,10 @@ We're using the "ObesityDataSet_raw_and_data_sinthetic.csv" from the UCI ML Repo
 You’ll need the following Python libraries to get everything running:
 - `pandas` (for data handling)
 - `numpy` (for numerical operations)
-- `scikit-learn` (for the machine learning model)
+- `scikit-learn` (for machine learning tasks such as model training, splitting data, and standardization)
 - `matplotlib` (for plotting)
+- `model_tuning` (for tuning model hyperparameters)
+- `grid_search` (for performing grid search optimization)
 
 You can install everything in one go with:
 ```bash
