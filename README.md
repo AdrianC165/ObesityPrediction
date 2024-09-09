@@ -14,8 +14,11 @@ You’ll need the following Python libraries to get everything running:
 - `numpy` (for numerical operations)
 - `scikit-learn` (for machine learning tasks such as model training, splitting data, and standardization)
 - `matplotlib` (for plotting)
-- `model_tuning` (for tuning model hyperparameters)
-- `grid_search` (for performing grid search optimization)
+
+## Project Structure
+- `model_tuning.py`: Contains the `tune_hyperparameters` function used for optimizing model parameters.
+- `grid_search.py`: Contains the `tune_hyperparameters` function used for optimizing model parameters.
+Make sure both `model_tuning.py` and `grid_search.py` are present in your project directory for the code to run successfully.
 
 You can install everything in one go with:
 ```bash
