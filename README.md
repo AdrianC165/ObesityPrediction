@@ -49,6 +49,7 @@ pip install pandas numpy scikit-learn matplotlib
 7. **Check the output files** in the project directory:
     - `model_results.txt`: Contains evaluation metrics such as Mean Squared Error, model coefficients, and R2 Score.
     - `predicted_vs_actual.png`: A plot showing the predicted vs. actual values.
+    - `tuning_log.txt`: A log file that records the different hyperparameter trials during the grid search, along with corresponding MSE and R^2 scores for each trial. 
 
 
 ## Running the Code in Terminal
