@@ -21,7 +21,7 @@ pip install pandas numpy scikit-learn matplotlib
 ```
 ## Running the Code in VS Code
 
-1. **Download the dataset** from the provided link and place it in the same directory as the Python script.
+1. **Download the dataset** from the provided link and place it in the same directory as the main.py.
 
 2. **Open VS Code** and navigate to the project directory.
 
@@ -59,5 +59,5 @@ Follow the same steps as in VS Code. You can run main.py directly in the termina
 ```
     
 ## Notes
-- Ensure that no hardcoded paths are used; the dataset should be in the same directory as the script.
+- Ensure that no hardcoded paths are used; the dataset should be in the same directory as main.py.
 - The dataset file is not included in this repository but must be downloaded separately from the provided link.
