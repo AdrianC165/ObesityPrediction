@@ -36,9 +36,9 @@ pip install pandas numpy scikit-learn matplotlib
     pip install pandas numpy scikit-learn matplotlib
     ```
 
-5. **Open the Python script file** in VS Code.
+5. **Open the main.py file in VS Code.
 
-6. **Run the Python script** using the built-in terminal or by pressing `F5` if you have configured a launch configuration. This will:
+6. **Run the Python file** using the built-in terminal. This will:
     - Load and clean the dataset.
     - Convert categorical variables into numerical format.
     - Standardize the features.
@@ -53,20 +53,10 @@ pip install pandas numpy scikit-learn matplotlib
 
 
 ## Running the Code in Terminal
-1. Download the dataset from the provided link and place it in the same directory as the Python script.
-2. Install the required libraries if you haven’t already.
-3. Run the Python script using your preferred Python environment. This will:
-
-- Load and clean the dataset.
-- Convert categorical variables into numerical format.
-- Standardize the features.
-- Split the data into training and test sets.
-- Train a regression model using gradient descent.
-- Evaluate the model and generate plots.
-  
-4. Check the output files for results:
-- model_results.txt: Contains evaluation metrics such as Mean Squared Error, model coefficients, and R2 Score.
-- predicted_vs_actual.png: A plot showing the predicted vs. actual values.
+Follow the same steps as in VS Code. You can run main.py directly in the terminal with:
+```bash
+    python main.py
+```
     
 ## Notes
 - Ensure that no hardcoded paths are used; the dataset should be in the same directory as the script.
