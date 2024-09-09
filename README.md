@@ -18,7 +18,7 @@ You’ll need the following Python libraries to get everything running:
 ## Project Structure
 - `model_tuning.py`: Contains the `tune_hyperparameters` function used for optimizing model parameters.
 - `grid_search.py`: Contains the `tune_hyperparameters` function used for optimizing model parameters.
-Make sure both `model_tuning.py` and `grid_search.py` are present in your project directory for the code to run successfully.
+- Make sure both `model_tuning.py` and `grid_search.py` are present in your project directory for the code to run successfully.
 
 You can install everything in one go with:
 ```bash
