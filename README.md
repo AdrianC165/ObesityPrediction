@@ -1,5 +1,5 @@
 # ObesityPrediction
-Exploring the Link Between Eating Habits and Obesity
+We are exploring the Link Between Eating Habits and Obesity
 
 ## Project Overview
 In this project, we’re digging into the relationship between eating habits and obesity using machine learning. The dataset comes from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php). The main goal is to clean up the data, build a regression model, and see how well we can predict obesity levels based on various lifestyle factors.
