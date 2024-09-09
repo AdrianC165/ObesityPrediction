@@ -19,8 +19,39 @@ You can install everything in one go with:
 ```bash
 pip install pandas numpy scikit-learn matplotlib
 ```
+## Running the Code in VS Code
 
-## Running the Code
+1. **Download the dataset** from the provided link and place it in the same directory as the Python script.
+
+2. **Open VS Code** and navigate to the project directory.
+
+3. **Set up a Python environment** (e.g., using a virtual environment) if you haven't already:
+    ```bash
+    python -m venv env
+    source env/bin/activate  # On Windows, use `env\Scripts\activate`
+    ```
+
+4. **Install the required libraries** by running:
+    ```bash
+    pip install pandas numpy scikit-learn matplotlib
+    ```
+
+5. **Open the Python script file** in VS Code.
+
+6. **Run the Python script** using the built-in terminal or by pressing `F5` if you have configured a launch configuration. This will:
+    - Load and clean the dataset.
+    - Convert categorical variables into numerical format.
+    - Standardize the features.
+    - Split the data into training and test sets.
+    - Train a regression model using gradient descent.
+    - Evaluate the model and generate plots.
+
+7. **Check the output files** in the project directory:
+    - `model_results.txt`: Contains evaluation metrics such as Mean Squared Error, model coefficients, and R2 Score.
+    - `predicted_vs_actual.png`: A plot showing the predicted vs. actual values.
+
+
+## Running the Code in Terminal
 1. Download the dataset from the provided link and place it in the same directory as the Python script.
 2. Install the required libraries if you haven’t already.
 3. Run the Python script using your preferred Python environment. This will:
