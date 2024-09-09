@@ -6,7 +6,6 @@ from sklearn.linear_model import SGDRegressor
 from sklearn.impute import SimpleImputer
 from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
-from model_tuning import tune_hyperparameters
 from grid_search import perform_grid_search
 
 #person 1
@@ -53,7 +52,7 @@ X = scaler.fit_transform(X)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # find best model
-best_model, best_params = perform_grid_search(X_train, y_train)
+best_model, best_params, cv_results = perform_grid_search(X_train, y_train)
 print(f"Best parameters: {best_params}")
 
 #making predictions
@@ -70,6 +69,15 @@ plt.ylabel('Predicted Values')
 plt.title('Predicted vs Actual Values')
 plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='red', linestyle='--')
 plt.legend()
+plt.show()
+
+# Plot MSE vs. Number of Iterations
+plt.figure()
+plt.plot(cv_results['param_max_iter'], -cv_results['mean_test_mse'], marker='o')
+plt.xlabel('Max Iterations')
+plt.ylabel('Mean Squared Error')
+plt.title('MSE vs Max Iterations')
+plt.savefig('mse_vs_iterations.png')
 plt.show()
 
 #report coefficients and evaluation statistics
