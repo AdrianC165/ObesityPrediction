@@ -33,7 +33,7 @@ pip install pandas numpy scikit-learn matplotlib
 3. **Set up a Python environment** (e.g., using a virtual environment) if you haven't already:
     ```bash
     python -m venv env
-    source env/bin/activate  # On Windows, use `env\Scripts\activate`
+    source env/bin/activate  #On Windows, use `env\Scripts\activate`
     ```
 
 4. **Install the required libraries** by running:
