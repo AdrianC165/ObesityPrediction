@@ -12,7 +12,7 @@ def perform_grid_search(X_train, y_train):
         'learning_rate': ['constant', 'optimal', 'invscaling', 'adaptive'],
         'eta0': [0.0001, 0.001, 0.01],
         'max_iter': [100, 500, 1000],
-        'tol': [1e-4, 1e-3, 1e-2],
+        'tol': [1e-5, 1e-4, 1e-3],
         'alpha': [0.0001, 0.001, 0.01]
     }
 
@@ -39,6 +39,7 @@ def perform_grid_search(X_train, y_train):
     # Get the best model and parameters
     best_model = grid_search.best_estimator_
     best_params = grid_search.best_params_
+    cv_results = grid_search.cv_results_
 
     # Save/log the results
     with open('tuning_log.txt', 'w') as log_file:
@@ -50,4 +51,4 @@ def perform_grid_search(X_train, y_train):
             log_file.write(f"{params['learning_rate']}, {params['max_iter']}, {params['tol']}, {params['alpha']}, {-mean_mse}, {mean_r2}\n")
         
 
-    return best_model, best_params
+    return best_model, best_params, cv_results
