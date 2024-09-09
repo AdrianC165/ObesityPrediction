@@ -38,7 +38,7 @@ pip install pandas numpy scikit-learn matplotlib
     pip install pandas numpy scikit-learn matplotlib
     ```
 
-5. **Open the main.py file in VS Code.
+5. **Open the main.py file in VS Code.**
 
 6. **Run the Python file** using the built-in terminal. This will:
     - Load and clean the dataset.
